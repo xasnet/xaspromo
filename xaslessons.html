@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Картинка страницы -->
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+    <!-- Сслыки на каскадные таблицы стилей -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Заголовок страницы -->
+    <title>Обучение</title>
+</head>
+
+<body>
+    <h1>Формации:</h1>
+
+    <div class="container2">
+        <div class="mySlides">
+            <div class="numbertext">1 / 3</div>
+            <img src="assets/img/img1.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">2 / 3</div>
+            <img src="assets/img/img2.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">3 / 3</div>
+            <img src="assets/img/img3.jpg" style="width:100%">
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="assets/img/img1.jpg" style="width:100%" onclick="currentSlide(1)"
+                    alt="pattern-double">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="assets/img/img2.jpg" style="width:100%" onclick="currentSlide(2)"
+                    alt="pattern-flag">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="assets/img/img3.jpg" style="width:100%" onclick="currentSlide(3)"
+                    alt="pattern-head">
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/script/script03.js"></script>
+</body>
+
+</html>
